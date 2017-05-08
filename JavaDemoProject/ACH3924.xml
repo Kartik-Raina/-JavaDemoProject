@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?><Checks version="1.0" vocabulary="petroxml">
+  <Check checkNumber="ACH3924" date="2016-11-20" amount="8513274.55" currency="USDollars" dispursementType="eft" sumOwnGross="9417186.33" sumOwnSevTax="903911.78" sumOwnNetDeduct="0.00" sumOwnYearGross="54506582.70" sumOwnYearNetTotal="49330281.99" sumOwnYearTax="5176150.71" sumOwnYearNetDeduct="150.00" comment="ND - NORTH DAKOTA OIL EXTRACTION TAX - TAXABLE  |  ND - NORTH DAKOTA GROSS PRODUCTION TAX">
+    <Payor name="ABRAXAS PETRO CORP" idType="oildex"/>
+    <Owner name="ABRAXAS PETROLEUM CORP" ownerNumber="83433_3" ownerNumberType="owner">
+      <Address>
+        <AddressDetail>18803 MEISNER DR</AddressDetail>
+        <AddressCity>SAN ANTONIO</AddressCity>
+        <AddressState>TX</AddressState>
+        <AddressPostalCode>78258-4240</AddressPostalCode>
+      </Address>
+    </Owner>
+    <Property propertyID="63179" propertyType="lease" name="PEREGRINE 5-H" county="CONVERSE" state="WY" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="9568.83" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="214.02" ownerVolume="214.02" apiGravity="40.00" unitPrice="44.71" saleMonth="2016-10" proceeds="9568.83" netProceeds="9568.83" ownerProceeds="9568.83" netOwnerProceeds="9568.83"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="63180" propertyType="lease" name="MIDDLETON 3-H (3-10-38-67H)" county="NIOBRARA" state="WY" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="9326.95" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="208.61" ownerVolume="208.61" apiGravity="40.00" unitPrice="44.71" saleMonth="2016-10" proceeds="9326.95" netProceeds="9326.95" ownerProceeds="9326.95" netOwnerProceeds="9326.95"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="63182" propertyType="lease" name="HUNGARIAN PARTRIDGE 3-H (3-14-38-67H)" county="NIOBRARA" state="WY" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="10627.57" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="237.70" ownerVolume="237.70" apiGravity="40.00" unitPrice="44.71" saleMonth="2016-10" proceeds="10627.57" netProceeds="10627.57" ownerProceeds="10627.57" netOwnerProceeds="10627.57"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="63185" propertyType="lease" name="PRAIRIE FALCON #1 (1-12-38-67)" county="NIOBRARA" state="WY" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="8949.15" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="200.16" ownerVolume="200.16" apiGravity="40.00" unitPrice="44.71" saleMonth="2016-10" proceeds="8949.15" netProceeds="8949.15" ownerProceeds="8949.15" netOwnerProceeds="8949.15"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="63186" propertyType="lease" name="REDTAIL HAWK #1" county="NIOBRARA" state="WY" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="10245.74" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="229.16" ownerVolume="229.16" apiGravity="40.00" unitPrice="44.71" saleMonth="2016-10" proceeds="10245.74" netProceeds="10245.74" ownerProceeds="10245.74" netOwnerProceeds="10245.74"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="120951A" propertyType="lease" name="RAVIN 26-35-2H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.95214844" settlementInterest="0.95214844" amount="32858.32" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="881.27" ownerVolume="839.10" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="38344.06" netProceeds="34509.66" ownerProceeds="36509.24" netOwnerProceeds="32858.32"/>
+        <Tax taxType="unspecified" reference="ND" amount="1917.20" ownerAmount="1825.46" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="1917.20" ownerAmount="1825.46" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.04785156" settlementInterest="0.04785156" amount="1834.82" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="881.27" ownerVolume="42.17" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="38344.06" netProceeds="34509.66" ownerProceeds="1834.82" netOwnerProceeds="1834.82"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="120951B" propertyType="lease" name="RAVIN 26-35-3H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.95214844" settlementInterest="0.95214844" amount="45376.07" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="1217.00" ownerVolume="1158.76" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="52951.67" netProceeds="47656.51" ownerProceeds="50417.85" netOwnerProceeds="45376.07"/>
+        <Tax taxType="unspecified" reference="ND" amount="2647.58" ownerAmount="2520.89" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="2647.58" ownerAmount="2520.89" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.04785156" settlementInterest="0.04785156" amount="2533.82" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="1217.00" ownerVolume="58.24" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="52951.67" netProceeds="47656.51" ownerProceeds="2533.82" netOwnerProceeds="2533.82"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="120952A" propertyType="lease" name="JORE FEDERAL 2-11-3H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="104016.42" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="3004.68" ownerVolume="2656.26" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="130733.63" netProceeds="117660.27" ownerProceeds="115573.80" netOwnerProceeds="104016.42"/>
+        <Tax taxType="unspecified" reference="ND" amount="6536.68" ownerAmount="5778.69" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="6536.68" ownerAmount="5778.69" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="15159.83" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="3004.68" ownerVolume="348.42" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="130733.63" netProceeds="117660.27" ownerProceeds="15159.83" netOwnerProceeds="15159.83"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="120952B" propertyType="lease" name="JORE FEDERAL 2-11-1H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="79143.63" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2286.19" ownerVolume="2021.08" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="99472.13" netProceeds="89524.91" ownerProceeds="87937.37" netOwnerProceeds="79143.63"/>
+        <Tax taxType="unspecified" reference="ND" amount="4973.61" ownerAmount="4396.87" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="4973.61" ownerAmount="4396.87" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="11534.76" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="2286.19" ownerVolume="265.11" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="99472.13" netProceeds="89524.91" ownerProceeds="11534.76" netOwnerProceeds="11534.76"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121035" propertyType="lease" name="LILLIBRIDGE 20-17 1H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="165588.14" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="4228.61" ownerVolume="4228.61" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="183986.82" netProceeds="165588.14" ownerProceeds="183986.82" netOwnerProceeds="165588.14"/>
+        <Tax taxType="unspecified" reference="ND" amount="9199.34" ownerAmount="9199.34" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="9199.34" ownerAmount="9199.34" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121038" propertyType="lease" name="LILLIBRIDGE 20-17 2H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="92565.22" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2363.83" ownerVolume="2363.83" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="102850.24" netProceeds="92565.22" ownerProceeds="102850.24" netOwnerProceeds="92565.22"/>
+        <Tax taxType="unspecified" reference="ND" amount="5142.51" ownerAmount="5142.51" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="5142.51" ownerAmount="5142.51" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121039" propertyType="lease" name="LILLIBRIDGE 20-17 3H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="92654.51" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2366.11" ownerVolume="2366.11" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="102949.45" netProceeds="92654.51" ownerProceeds="102949.45" netOwnerProceeds="92654.51"/>
+        <Tax taxType="unspecified" reference="ND" amount="5147.47" ownerAmount="5147.47" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="5147.47" ownerAmount="5147.47" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121040" propertyType="lease" name="LILLIBRIDGE 20-17 4H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="52261.61" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="1334.60" ownerVolume="1334.60" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="58068.45" netProceeds="52261.61" ownerProceeds="58068.45" netOwnerProceeds="52261.61"/>
+        <Tax taxType="unspecified" reference="ND" amount="2903.42" ownerAmount="2903.42" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="2903.42" ownerAmount="2903.42" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121111" propertyType="lease" name="LILLIBRIDGE 20-17 5H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="74660.94" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="1906.61" ownerVolume="1906.61" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="82956.60" netProceeds="74660.94" ownerProceeds="82956.60" netOwnerProceeds="74660.94"/>
+        <Tax taxType="unspecified" reference="ND" amount="4147.83" ownerAmount="4147.83" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="4147.83" ownerAmount="4147.83" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121112" propertyType="lease" name="LILLIBRIDGE 20-17 7H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="96553.16" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2465.67" ownerVolume="2465.67" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="107281.30" netProceeds="96553.16" ownerProceeds="107281.30" netOwnerProceeds="96553.16"/>
+        <Tax taxType="unspecified" reference="ND" amount="5364.07" ownerAmount="5364.07" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="5364.07" ownerAmount="5364.07" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121113" propertyType="lease" name="LILLIBRIDGE 20-17 6H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="93948.71" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2399.16" ownerVolume="2399.16" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="104387.45" netProceeds="93948.71" ownerProceeds="104387.45" netOwnerProceeds="93948.71"/>
+        <Tax taxType="unspecified" reference="ND" amount="5219.37" ownerAmount="5219.37" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="5219.37" ownerAmount="5219.37" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121114" propertyType="lease" name="LILLIBRIDGE 20-17 8H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="81210.29" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2073.86" ownerVolume="2073.86" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="90233.65" netProceeds="81210.29" ownerProceeds="90233.65" netOwnerProceeds="81210.29"/>
+        <Tax taxType="unspecified" reference="ND" amount="4511.68" ownerAmount="4511.68" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="4511.68" ownerAmount="4511.68" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121177" propertyType="lease" name="JORE FEDERAL 2-11-2H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="71260.04" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2058.46" ownerVolume="1819.76" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="89563.59" netProceeds="80607.23" ownerProceeds="79177.82" netOwnerProceeds="71260.04"/>
+        <Tax taxType="unspecified" reference="ND" amount="4478.18" ownerAmount="3958.89" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="4478.18" ownerAmount="3958.89" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="10385.77" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="2058.46" ownerVolume="238.70" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="89563.59" netProceeds="80607.23" ownerProceeds="10385.77" netOwnerProceeds="10385.77"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121178" propertyType="lease" name="JORE FEDERAL 2-11-4H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="72369.22" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2090.50" ownerVolume="1848.09" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="90957.66" netProceeds="81861.90" ownerProceeds="80410.24" netOwnerProceeds="72369.22"/>
+        <Tax taxType="unspecified" reference="ND" amount="4547.88" ownerAmount="4020.51" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="4547.88" ownerAmount="4020.51" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="10547.42" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="2090.50" ownerVolume="242.41" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="90957.66" netProceeds="81861.90" ownerProceeds="10547.42" netOwnerProceeds="10547.42"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121197" propertyType="lease" name="RAVIN 26-35-4H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.95214844" settlementInterest="0.95214844" amount="140064.76" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="3756.58" ownerVolume="3576.82" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="163448.80" netProceeds="147103.92" ownerProceeds="155627.52" netOwnerProceeds="140064.76"/>
+        <Tax taxType="unspecified" reference="ND" amount="8172.44" ownerAmount="7781.38" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="8172.44" ownerAmount="7781.38" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.04785156" settlementInterest="0.04785156" amount="7821.28" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="3756.58" ownerVolume="179.76" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="163448.80" netProceeds="147103.92" ownerProceeds="7821.28" netOwnerProceeds="7821.28"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121198" propertyType="lease" name="RAVIN 26-35-5H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.95214844" settlementInterest="0.95214844" amount="186553.79" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="5003.43" ownerVolume="4764.01" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="217699.24" netProceeds="195929.32" ownerProceeds="207281.99" netOwnerProceeds="186553.79"/>
+        <Tax taxType="unspecified" reference="ND" amount="10884.96" ownerAmount="10364.10" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="10884.96" ownerAmount="10364.10" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.04785156" settlementInterest="0.04785156" amount="10417.25" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="5003.43" ownerVolume="239.42" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="217699.24" netProceeds="195929.32" ownerProceeds="10417.25" netOwnerProceeds="10417.25"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121199" propertyType="lease" name="RAVIN 26-35-6H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.95214844" settlementInterest="0.95214844" amount="59958.29" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="1608.10" ownerVolume="1531.15" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="69968.43" netProceeds="62971.59" ownerProceeds="66620.33" netOwnerProceeds="59958.29"/>
+        <Tax taxType="unspecified" reference="ND" amount="3498.42" ownerAmount="3331.02" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="3498.42" ownerAmount="3331.02" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.04785156" settlementInterest="0.04785156" amount="3348.10" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="1608.10" ownerVolume="76.95" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="69968.43" netProceeds="62971.59" ownerProceeds="3348.10" netOwnerProceeds="3348.10"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121200" propertyType="lease" name="RAVIN 26-35-7H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.95214844" settlementInterest="0.95214844" amount="77451.02" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2077.26" ownerVolume="1977.86" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="90381.58" netProceeds="81343.42" ownerProceeds="86056.68" netOwnerProceeds="77451.02"/>
+        <Tax taxType="unspecified" reference="ND" amount="4519.08" ownerAmount="4302.83" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="4519.08" ownerAmount="4302.83" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.04785156" settlementInterest="0.04785156" amount="4324.90" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="2077.26" ownerVolume="99.40" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="90381.58" netProceeds="81343.42" ownerProceeds="4324.90" netOwnerProceeds="4324.90"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121227" propertyType="lease" name="LILLIBRIDGE 3" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="9046.49" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="224.22" ownerVolume="224.22" apiGravity="40.00" unitPrice="42.47" saleMonth="2016-10" proceeds="9522.62" netProceeds="9046.49" ownerProceeds="9522.62" netOwnerProceeds="9046.49"/>
+        <Tax taxType="unspecified" reference="ND" amount="476.13" ownerAmount="476.13" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121239" propertyType="lease" name="STENEHJEM 27-34-2H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="85025.61" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="2235.99" ownerVolume="2189.41" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="96482.97" netProceeds="86834.67" ownerProceeds="94472.91" netOwnerProceeds="85025.61"/>
+        <Tax taxType="unspecified" reference="ND" amount="4824.15" ownerAmount="4723.65" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="4824.15" ownerAmount="4723.65" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="2010.06" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="2235.99" ownerVolume="46.58" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="96482.97" netProceeds="86834.67" ownerProceeds="2010.06" netOwnerProceeds="2010.06"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121240" propertyType="lease" name="STENEHJEM 27-34-3H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="116370.76" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="3060.30" ownerVolume="2996.54" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="132051.96" netProceeds="118846.74" ownerProceeds="129300.88" netOwnerProceeds="116370.76"/>
+        <Tax taxType="unspecified" reference="ND" amount="6602.61" ownerAmount="6465.06" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="6602.61" ownerAmount="6465.06" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="2751.08" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="3060.30" ownerVolume="63.76" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="132051.96" netProceeds="118846.74" ownerProceeds="2751.08" netOwnerProceeds="2751.08"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121241" propertyType="lease" name="STENEHJEM 27-34-4H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="295659.99" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="7775.22" ownerVolume="7613.24" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="335500.73" netProceeds="301950.63" ownerProceeds="328511.13" netOwnerProceeds="295659.99"/>
+        <Tax taxType="unspecified" reference="ND" amount="16775.05" ownerAmount="16425.57" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="16775.05" ownerAmount="16425.57" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="6989.60" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="7775.22" ownerVolume="161.98" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="335500.73" netProceeds="301950.63" ownerProceeds="6989.60" netOwnerProceeds="6989.60"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121283" propertyType="lease" name="JORE FEDERAL 2-11-5H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="223765.04" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="6463.81" ownerVolume="5714.27" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="281240.37" netProceeds="253116.33" ownerProceeds="248627.82" netOwnerProceeds="223765.04"/>
+        <Tax taxType="unspecified" reference="ND" amount="14062.02" ownerAmount="12431.39" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="14062.02" ownerAmount="12431.39" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="32612.55" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="6463.81" ownerVolume="749.54" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="281240.37" netProceeds="253116.33" ownerProceeds="32612.55" netOwnerProceeds="32612.55"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121284" propertyType="lease" name="JORE FEDERAL 2-11-6H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="127128.16" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="3672.30" ownerVolume="3246.46" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="159781.77" netProceeds="143803.59" ownerProceeds="141253.52" netOwnerProceeds="127128.16"/>
+        <Tax taxType="unspecified" reference="ND" amount="7989.09" ownerAmount="7062.68" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="7989.09" ownerAmount="7062.68" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="18528.25" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="3672.30" ownerVolume="425.84" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="159781.77" netProceeds="143803.59" ownerProceeds="18528.25" netOwnerProceeds="18528.25"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121285" propertyType="lease" name="JORE FEDERAL 2-11-7H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="121861.36" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="3520.16" ownerVolume="3111.96" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="153162.16" netProceeds="137845.94" ownerProceeds="135401.52" netOwnerProceeds="121861.36"/>
+        <Tax taxType="unspecified" reference="ND" amount="7658.11" ownerAmount="6770.08" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="7658.11" ownerAmount="6770.08" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="17760.64" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="3520.16" ownerVolume="408.20" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="153162.16" netProceeds="137845.94" ownerProceeds="17760.64" netOwnerProceeds="17760.64"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121286" propertyType="lease" name="JORE FEDERAL 2-11-8H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.88404030" settlementInterest="0.88404030" amount="123178.25" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="3558.20" ownerVolume="3145.59" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="154817.28" netProceeds="139335.56" ownerProceeds="136864.71" netOwnerProceeds="123178.25"/>
+        <Tax taxType="unspecified" reference="ND" amount="7740.86" ownerAmount="6843.23" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="7740.86" ownerAmount="6843.23" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.11595970" settlementInterest="0.11595970" amount="17952.57" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="3558.20" ownerVolume="412.61" apiGravity="40.00" unitPrice="43.51" saleMonth="2016-10" proceeds="154817.28" netProceeds="139335.56" ownerProceeds="17952.57" netOwnerProceeds="17952.57"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121359" propertyType="lease" name="TITAN FEDERAL 1-28" county="BILLINGS" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.87500000" settlementInterest="0.87500000" amount="7927.56" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="227.34" ownerVolume="198.92" apiGravity="40.00" unitPrice="41.95" saleMonth="2016-10" proceeds="9536.91" netProceeds="9060.06" ownerProceeds="8344.80" netOwnerProceeds="7927.56"/>
+        <Tax taxType="unspecified" reference="ND" amount="476.85" ownerAmount="417.24" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.12500000" settlementInterest="0.12500000" amount="1192.11" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="227.34" ownerVolume="28.42" apiGravity="40.00" unitPrice="41.95" saleMonth="2016-10" proceeds="9536.91" netProceeds="9060.06" ownerProceeds="1192.11" netOwnerProceeds="1192.11"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121360" propertyType="lease" name="FRANK 1-14" county="BILLINGS" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="1.00000000" settlementInterest="1.00000000" amount="8791.52" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="221.34" ownerVolume="221.34" apiGravity="40.00" unitPrice="41.81" saleMonth="2016-10" proceeds="9254.23" netProceeds="8791.52" ownerProceeds="9254.23" netOwnerProceeds="8791.52"/>
+        <Tax taxType="unspecified" reference="ND" amount="462.71" ownerAmount="462.71" componentType="T"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121364" propertyType="lease" name="RAVIN 8H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.95214844" settlementInterest="0.95214844" amount="217955.72" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="5894.41" ownerVolume="5612.35" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="254343.79" netProceeds="228909.39" ownerProceeds="242173.04" netOwnerProceeds="217955.72"/>
+        <Tax taxType="unspecified" reference="ND" amount="12717.20" ownerAmount="12108.66" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="12717.20" ownerAmount="12108.66" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.04785156" settlementInterest="0.04785156" amount="12170.75" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="5894.41" ownerVolume="282.06" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="254343.79" netProceeds="228909.39" ownerProceeds="12170.75" netOwnerProceeds="12170.75"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121365" propertyType="lease" name="STEN-RAV 1H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.96565755" settlementInterest="0.96565755" amount="197545.63" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="5267.70" ownerVolume="5086.79" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="227301.25" netProceeds="204571.11" ownerProceeds="219495.17" netOwnerProceeds="197545.63"/>
+        <Tax taxType="unspecified" reference="ND" amount="11365.07" ownerAmount="10974.77" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="11365.07" ownerAmount="10974.77" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.03434245" settlementInterest="0.03434245" amount="7806.08" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="5267.70" ownerVolume="180.91" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="227301.25" netProceeds="204571.11" ownerProceeds="7806.08" netOwnerProceeds="7806.08"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121366" propertyType="lease" name="STENEHJEM 5H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="222432.71" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="5849.50" ownerVolume="5727.64" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="252405.93" netProceeds="227165.33" ownerProceeds="247147.47" netOwnerProceeds="222432.71"/>
+        <Tax taxType="unspecified" reference="ND" amount="12620.30" ownerAmount="12357.38" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="12620.30" ownerAmount="12357.38" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="5258.46" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="5849.50" ownerVolume="121.86" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="252405.93" netProceeds="227165.33" ownerProceeds="5258.46" netOwnerProceeds="5258.46"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121513" propertyType="lease" name="STENEHJEM 10H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="813506.37" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="21393.46" ownerVolume="20947.76" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="923127.80" netProceeds="830815.02" ownerProceeds="903895.97" netOwnerProceeds="813506.37"/>
+        <Tax taxType="unspecified" reference="ND" amount="46156.39" ownerAmount="45194.80" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="46156.39" ownerAmount="45194.80" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="19231.83" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="21393.46" ownerVolume="445.70" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="923127.80" netProceeds="830815.02" ownerProceeds="19231.83" netOwnerProceeds="19231.83"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121514" propertyType="lease" name="STENEHJEM 11H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="26399.12" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="694.24" ownerVolume="679.78" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="29956.47" netProceeds="26960.81" ownerProceeds="29332.38" netOwnerProceeds="26399.12"/>
+        <Tax taxType="unspecified" reference="ND" amount="1497.83" ownerAmount="1466.63" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="1497.83" ownerAmount="1466.63" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="624.09" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="694.24" ownerVolume="14.46" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="29956.47" netProceeds="26960.81" ownerProceeds="624.09" netOwnerProceeds="624.09"/>
+      </LineItem>
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="1081698.74" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="28446.34" ownerVolume="27853.71" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="1227459.57" netProceeds="1104713.61" ownerProceeds="1201887.50" netOwnerProceeds="1081698.74"/>
+        <Tax taxType="unspecified" reference="ND" amount="61372.98" ownerAmount="60094.38" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="61372.98" ownerAmount="60094.38" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="25572.07" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="28446.34" ownerVolume="592.63" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="1227459.57" netProceeds="1104713.61" ownerProceeds="25572.07" netOwnerProceeds="25572.07"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121515" propertyType="lease" name="STENEHJEM 12H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="26201.40" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="689.04" ownerVolume="674.69" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="29732.08" netProceeds="26758.88" ownerProceeds="29112.66" netOwnerProceeds="26201.40"/>
+        <Tax taxType="unspecified" reference="ND" amount="1486.60" ownerAmount="1455.63" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="1486.60" ownerAmount="1455.63" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="619.42" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="689.04" ownerVolume="14.35" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="29732.08" netProceeds="26758.88" ownerProceeds="619.42" netOwnerProceeds="619.42"/>
+      </LineItem>
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="524136.98" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="13783.67" ownerVolume="13496.51" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="594765.36" netProceeds="535288.82" ownerProceeds="582374.42" netOwnerProceeds="524136.98"/>
+        <Tax taxType="unspecified" reference="ND" amount="29738.27" ownerAmount="29118.72" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="29738.27" ownerAmount="29118.72" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="12390.94" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="13783.67" ownerVolume="287.16" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="594765.36" netProceeds="535288.82" ownerProceeds="12390.94" netOwnerProceeds="12390.94"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121516" propertyType="lease" name="STENEHJEM 13H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="27022.74" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="710.64" ownerVolume="695.84" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="30664.12" netProceeds="27597.70" ownerProceeds="30025.28" netOwnerProceeds="27022.74"/>
+        <Tax taxType="unspecified" reference="ND" amount="1533.21" ownerAmount="1501.27" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="1533.21" ownerAmount="1501.27" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="638.84" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="710.64" ownerVolume="14.80" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="30664.12" netProceeds="27597.70" ownerProceeds="638.84" netOwnerProceeds="638.84"/>
+      </LineItem>
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="883723.93" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="23240.03" ownerVolume="22755.86" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="1002807.29" netProceeds="902526.57" ownerProceeds="981915.47" netOwnerProceeds="883723.93"/>
+        <Tax taxType="unspecified" reference="ND" amount="50140.36" ownerAmount="49095.77" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="50140.36" ownerAmount="49095.77" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="20891.82" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="23240.03" ownerVolume="484.17" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="1002807.29" netProceeds="902526.57" ownerProceeds="20891.82" netOwnerProceeds="20891.82"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121517" propertyType="lease" name="STENEHJEM 14H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="26374.41" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="693.59" ownerVolume="679.14" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="29928.40" netProceeds="26935.56" ownerProceeds="29304.89" netOwnerProceeds="26374.41"/>
+        <Tax taxType="unspecified" reference="ND" amount="1496.42" ownerAmount="1465.24" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="1496.42" ownerAmount="1465.24" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="623.51" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="693.59" ownerVolume="14.45" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="29928.40" netProceeds="26935.56" ownerProceeds="623.51" netOwnerProceeds="623.51"/>
+      </LineItem>
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="711447.80" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="18709.54" ownerVolume="18319.76" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="807316.65" netProceeds="726584.99" ownerProceeds="790497.56" netOwnerProceeds="711447.80"/>
+        <Tax taxType="unspecified" reference="ND" amount="40365.83" ownerAmount="39524.88" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="40365.83" ownerAmount="39524.88" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="16819.09" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="18709.54" ownerVolume="389.78" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="807316.65" netProceeds="726584.99" ownerProceeds="16819.09" netOwnerProceeds="16819.09"/>
+      </LineItem>
+    </Property>
+    <Property propertyID="121518" propertyType="lease" name="STENEHJEM 15H" county="MCKENZIE" state="ND" operator="ABRAXAS PETRO CORP">
+      <LineItem interest="0.97916667" settlementInterest="0.97916667" amount="653071.14" date="2016-10" interestType="working" interestReference="WI">
+        <ProductionSale product="O" productType="oil" volume="17174.36" ownerVolume="16816.56" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="741073.63" netProceeds="666966.27" ownerProceeds="725634.60" netOwnerProceeds="653071.14"/>
+        <Tax taxType="unspecified" reference="ND" amount="37053.68" ownerAmount="36281.73" componentType="T"/>
+        <Tax taxType="unspecified" reference="ND" amount="37053.68" ownerAmount="36281.73" componentType="T"/>
+      </LineItem>
+      <LineItem interest="0.02083333" settlementInterest="0.02083333" amount="15439.03" date="2016-10" interestType="unspecified" interestReference="RIX">
+        <ProductionSale product="O" productType="oil" volume="17174.36" ownerVolume="357.80" apiGravity="40.00" unitPrice="43.15" saleMonth="2016-10" proceeds="741073.63" netProceeds="666966.27" ownerProceeds="15439.03" netOwnerProceeds="15439.03"/>
+      </LineItem>
+    </Property>
+    <Action actionCode="Insert"/>
+  </Check>
+</Checks>
