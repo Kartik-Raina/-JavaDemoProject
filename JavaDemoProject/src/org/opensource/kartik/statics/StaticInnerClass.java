@@ -1,6 +1,10 @@
 package org.opensource.kartik.statics;
 
-public class StaticInnerClass {
+import java.util.Comparator;
+
+import org.opensource.kartik.pack1.Class1;
+
+public class StaticInnerClass implements Comparator<Class1>{
 
 	static String str1 = "Kartik";
 
@@ -32,7 +36,7 @@ public class StaticInnerClass {
 
 		public class aaa {
 
-		}
+		} 
 	}
 
 	public static void main(String[] args) {
@@ -43,5 +47,11 @@ public class StaticInnerClass {
 
 		StaticInnerClass.StatInnerClass statInn = new StaticInnerClass.StatInnerClass();
 		StaticInnerClass.StatInnerClass.cccc aaaa = new StaticInnerClass.StatInnerClass.cccc();
+	}
+
+	@Override
+	public int compare(Class1 o1, Class1 o2) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }
