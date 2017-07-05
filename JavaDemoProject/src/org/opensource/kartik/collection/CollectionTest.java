@@ -6,10 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
-import java.util.ListIterator;
 import java.util.Set;
-
-import org.apache.commons.lang.StringUtils;
 
 public class CollectionTest {
 

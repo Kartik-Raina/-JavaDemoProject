@@ -20,7 +20,13 @@ public class CollectionTestMain {
 		list.add("3");
 		list.add("4");
 		list.add("5");
-
+		
+		List<Employee> empList =  new ArrayList<>();
+		empList.add(new Employee("Kartik", 1, true));
+		empList.add(new Employee("Vikram", 2, true));
+		empList.add(new Employee("Robin", 3, false));
+		System.out.println(empList.toString());
+		
 		// get the iterator
 		Iterator<String> it = list.iterator();
 

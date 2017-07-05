@@ -6,6 +6,16 @@ public class Employee {
 	Integer employeeId;
 	Boolean isActive;
 
+	public Employee() {
+	}
+
+	public Employee(String name, Integer employeeId, Boolean isActive) {
+		super();
+		this.name = name;
+		this.employeeId = employeeId;
+		this.isActive = isActive;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -31,6 +41,11 @@ public class Employee {
 	}
 
 	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", employeeId=" + employeeId + ", isActive=" + isActive + "]";
+	}
+
+	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
@@ -50,12 +65,11 @@ public class Employee {
 		if (name == null) {
 			if (other.name != null)
 				return false;
-		} else if (!name.equalsIgnoreCase(other.name)){
+		} else if (!name.equalsIgnoreCase(other.name)) {
 			return false;
-		} 
-			
+		}
+
 		return true;
 	}
 
-	
 }
