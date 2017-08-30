@@ -1,5 +1,7 @@
 package org.opensource.kartik.multithread;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class JavaAtomic {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -11,25 +13,26 @@ public class JavaAtomic {
 		t2.start();
 		t1.join();
 		t2.join();
-		System.out.println("Processing count=" + pt.getCount());
+		//System.out.println("Processing count=" + pt.getCount());
 	}
 
 }
 
 class ProcessingThread implements Runnable {
 	
-	private volatile int count;
+	private AtomicInteger count = new AtomicInteger(0);
 
 	@Override
 	public void run() {
 		for (int i = 1; i < 5; i++) {
-			//processSomething(i);
-			count++;
+			processSomething(i);
+			count.incrementAndGet();
+			System.out.println("Processing count=" + getCount());
 		}
 	}
 
 	public int getCount() {
-		return this.count;
+		return this.count.get();
 	}
 
 	private void processSomething(int i) {

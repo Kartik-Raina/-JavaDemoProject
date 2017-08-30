@@ -21,7 +21,7 @@ public class JsonMain {
 		mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 		mapper.configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true);
 		//mapper.configure(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT, true);
-		
+		System.out.println();
 
 		User user = new User();
 		List<Address> addressList = new ArrayList<>();

@@ -3,6 +3,7 @@ package org.opensource.kartik;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.opensource.kartik.AnotherTestClass;
 
@@ -20,7 +21,7 @@ public class DemoTestClass {
 	}
 	public static void main(String[] args) {
 		try {
-			List<Double> doubleList = new ArrayList<>();
+			List<Integer> doubleList = new ArrayList<>();
 			/*PojoClass pojoClass = new PojoClass();
 			
 			List<String> strList = new ArrayList<>();
@@ -43,8 +44,8 @@ public class DemoTestClass {
 			
 			int i = 0;
 			while(true){
-				double d = Math.random();
-				//Thread.sleep(1000);
+				Integer d = ThreadLocalRandom.current().nextInt(0, 10);
+				Thread.sleep(1000);
 				if(doubleList.contains(d)){
 					System.out.println("The number repeated is "+d+" and it has come after "+i+" iterations");
 					i=0;
